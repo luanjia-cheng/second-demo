@@ -4,8 +4,8 @@ import scipy
 from scipy.interpolate import interp1d
 
 # 已知数据点
-x = np.array([0, 1, 2, 3, 4, 5])
-y = np.array([0, 1, 4, 9, 16, 25])
+x = np.array([0, 1, 2, 3, 4, 5, 6])
+y = np.array([0, 1, 4, 9, 16, 25, 36])
 
 # 创建插值函数，'linear' 表示线性插值
 f = interp1d(x, y, kind='linear')
